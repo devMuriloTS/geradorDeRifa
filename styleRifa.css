@@ -1,0 +1,44 @@
+
+/* customizando a cor da página ao fundo */
+body {
+    background-color: #ac47ff;
+}
+
+/* bloquinho da rifa */
+.rifas td {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+/* para fazer o efeito de pontilhado, simulando uma tesoura cortando o papel*/
+.rifas .esquerdo {
+    border-right: dotted;
+}
+
+.rifas .direito {
+    border-left: dotted;
+}
+
+/* customizando e ajeitando a rifa */
+.rifas table {
+    background-color: #5e4e88;
+    margin: 15px;
+}
+
+/* ajeitando e colorindo o fundo */
+.container {
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(255, 186, 255);
+}
+
+/* customizando o titulo principal */
+.container h1{
+    text-align: center;
+    color: #c9ff9d;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    margin-left: 350px;
+    margin-right: 350px;
+}
